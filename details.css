@@ -1,0 +1,60 @@
+
+.back{
+    width : 100px;
+    height: 40px;
+    background-color: white;
+    border: none;
+  }
+
+.back-container{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    display:inline-block;
+    margin-top: 50px;
+    margin-left: 90px;
+    box-shadow: 0 4px 8px 0 rgba(100, 100, 100, 0.2);
+}
+
+.arrow{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 17px;
+    height: 15px;
+}
+
+.content {
+    padding: 100px;
+  }
+  
+.flag img{
+    position: relative;
+    width: 40%;
+    float: left;
+    height: 300px;
+    background-color: #282828;
+   
+}
+  
+.info{
+    position: relative;
+    padding-left:70px;
+    width: 50%;
+    float: left;
+    height: 100%;
+  
+ 
+}
+  
+.splitdiv .left{
+    width: 50%; 
+    float:left;
+}
+
+.splitdiv .right{
+    width: 50%; 
+    float:right;
+}
+
+.border{
+  
+}

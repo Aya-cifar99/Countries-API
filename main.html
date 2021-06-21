@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head lang="en">
+
+<link href="normalize.css" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="header.css" rel="stylesheet">
+<link href="search-bar.css" rel="stylesheet">
+<link href="cards.css" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<script src="main.js">
+
+</script>
+<div class="wrapper">
+    <div class="header">
+        <h1> Where in the world?</h1>
+        <div class="dark-container">
+            <img src="moon.png"/>
+            <button class="dark-button">Dark Mode</button>
+        </div>
+        
+    </div>
+    <div class="search-bar">
+		<div class="search-container">
+			<form>
+				<input type="image"  id="saveform" src="search.png " alt="Submit Form" />
+				<input type="text" placeholder="Search for a country..." name="search">
+			  </form>
+		</div>
+		<div class="sort-by">
+
+			<form>
+				<select name="region" id="re">
+	  
+				  <option value="Filter" selected>Filter by Region</option>
+	  
+				  <option value="Africa">Africa</option>
+				  <option value="America">America</option>
+				  <option value="Asia">Asia</option>
+				  <option value="Eurpoe">Eurpoe</option>
+				  <option value="Ocenia">Ocenia</option>
+	  
+				</select>
+			  </form>
+		</div>
+	</div>
+
+	
+    <div id="cards">
+		
+	</div>
+
+
+</div>
+
+</body>
+</html>
